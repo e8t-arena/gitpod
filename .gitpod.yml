@@ -3,8 +3,8 @@ image:
 
 # Command to start on workspace startup (optional)
 tasks:
-  - init: yarn install
-    command: yarn build
+  - init: yarn -cwd work install
+    command: yarn -cwd work build
 
 # Ports to expose on workspace startup (optional)
 ports:
